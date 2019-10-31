@@ -123,6 +123,7 @@ public class Student extends Person {
             return true;
         } else {
             System.err.println("Input email again: (with @ characters and not space)");
+           System.out.print("Done");
         }
         return false;
 
